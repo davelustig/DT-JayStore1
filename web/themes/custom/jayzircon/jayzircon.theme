@@ -1,0 +1,37 @@
+<?php
+
+
+/**
+ * @file
+ * Functions to support theming in the jayzircon theme.
+ */
+
+use Drupal\Core\Theme\ThemeSettings;
+use Drupal\Core\Template\Attribute;
+
+/**
+ * Implements hook_preprocess_HOOK() for commerce-cart-block.html.twig
+ * This is to change the color of the cart icon.
+ */
+function jayzircon_preprocess_commerce_cart_block(&$variables) {
+    $variables['icon']['#uri'] = str_replace('ffffff', '000000', $variables['icon']['#uri']);
+
+    //kint($variables);
+}
+
+
+
+/**
+ * Implements hook_view_alter_HOOK() for commerce-cart-block.html.twig.
+ */
+/*
+function commerce_cart_block_view_alter(array &$build) {
+    kint($build);
+}
+*/
+
+/*
+function jayzircon_preprocess_block(&$variables) {
+    kint($variables);
+}
+*/
