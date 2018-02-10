@@ -1,0 +1,50 @@
+/* Cart Icon: Push it to the right side of the header */
+.dt-cart-block {
+    float: right;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+/* Site Name: Push it the right of the logo, and make it large */
+.dt-site-name {
+    display: inline;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 2.0em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* Account Menu: Move it to the right side of the header bar and lay it out horizontally */
+ul.dt-account-menu {
+    float: right;
+    padding-top: 10px;
+}
+
+ul.dt-account-menu li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+@media (max-width: 991px) {
+    /* Site Name: Move it under the logo on smaller screens */
+    .dt-site-name {
+        display: block;
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Cart Icon: Fix vertical alignment on mobile devices */
+    .dt-cart-block {
+        padding-top: 2px;
+    }
+
+    /* Search Bar: Shorten it so it doesn't cover the cart icon */
+    /* #header .search-block-form {
+        float:none;
+        width: 85%;
+    } */
+
+}
