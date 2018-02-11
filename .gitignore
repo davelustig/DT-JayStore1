@@ -1,5 +1,5 @@
 # Ignore configuration files that may contain sensitive information.
-web/sites/*/*settings*.php
+#web/sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
 web/files/
