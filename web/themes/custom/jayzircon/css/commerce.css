@@ -26,6 +26,20 @@ ul.dt-account-menu li {
     padding-right: 8px;
 }
 
+/* Location Google Map: Set size */
+iframe.dt-gmap {
+    width: 550px;
+    height: 350px;
+}
+
+@media (max-width: 1200px) {
+    /* Location Google Map: Shrink it to it doesn't spill over into the right column on smaller windows */
+    iframe.dt-gmap{
+        width: 450px;
+        height: 350px;
+    }
+}
+
 @media (max-width: 991px) {
     /* Site Name: Move it under the logo on smaller screens */
     .dt-site-name {
@@ -47,4 +61,9 @@ ul.dt-account-menu li {
         width: 85%;
     } */
 
+    /* Location Google Map: Shrink it so it fixs on an iPhone screen */
+    iframe.dt-gmap{
+        width: 315px;
+        height: 250px;
+    }
 }
