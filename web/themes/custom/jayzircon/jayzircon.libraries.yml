@@ -4,3 +4,7 @@ global-styling:
     theme:
       css/commerce.css: {}
       css/overrides.css: {}
+      css/table.css: {}
+      css/block.css: {}
+      css/basic.css: {}
+      css/commerce-product.css: {}

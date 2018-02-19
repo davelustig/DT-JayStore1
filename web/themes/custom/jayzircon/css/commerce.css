@@ -1,69 +1,115 @@
 /* Cart Icon: Push it to the right side of the header */
+/* line 2, ../sass/commerce.scss */
 .dt-cart-block {
-    float: right;
-    padding-top: 4px;
-    padding-left: 10px;
+  float: right;
+  padding-top: 4px;
+  padding-left: 10px;
 }
 
 /* Site Name: Push it the right of the logo, and make it large */
+/* line 9, ../sass/commerce.scss */
 .dt-site-name {
-    display: inline;
-    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
-    font-size: 2.0em;
-    font-weight: bold;
-    vertical-align: middle;
+  display: inline;
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+  font-size: 2.0em;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 /* Account Menu: Move it to the right side of the header bar and lay it out horizontally */
+/* line 18, ../sass/commerce.scss */
 ul.dt-account-menu {
-    float: right;
-    padding-top: 10px;
+  float: right;
+  padding-top: 10px;
 }
 
+/* line 23, ../sass/commerce.scss */
 ul.dt-account-menu li {
-    display: inline;
-    padding-left: 8px;
-    padding-right: 8px;
+  display: inline;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 /* Location Google Map: Set size */
+/* line 30, ../sass/commerce.scss */
 iframe.dt-gmap {
-    width: 550px;
-    height: 350px;
+  width: 550px;
+  height: 350px;
+}
+
+/* Custom Ads: Change cursor into pointer when hovering over */
+/* line 36, ../sass/commerce.scss */
+.dt-ad {
+  cursor: pointer;
+}
+
+/* Products Grid: Style each item */
+/* line 41, ../sass/commerce.scss */
+.dt-grid-col {
+  border: lightgrey solid 1px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fbfbfb;
+  width: 30%;
+}
+
+/* line 49, ../sass/commerce.scss */
+.dt-grid-col .views-field-title {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* line 55, ../sass/commerce.scss */
+.dt-grid-col .views-field-field-images {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 61, ../sass/commerce.scss */
+.dt-grid-col .views-field-body {
+  /* Nothing yet */
 }
 
 @media (max-width: 1200px) {
-    /* Location Google Map: Shrink it to it doesn't spill over into the right column on smaller windows */
-    iframe.dt-gmap{
-        width: 450px;
-        height: 350px;
-    }
+  /* Location Google Map: Shrink it to it doesn't spill over into the right column on smaller windows */
+  /* line 67, ../sass/commerce.scss */
+  iframe.dt-gmap {
+    width: 450px;
+    height: 350px;
+  }
 }
-
 @media (max-width: 991px) {
-    /* Site Name: Move it under the logo on smaller screens */
-    .dt-site-name {
-        display: block;
-        font-size: 0.85em;
-    }
+  /* Site Name: Move it under the logo on smaller screens */
+  /* line 75, ../sass/commerce.scss */
+  .dt-site-name {
+    display: block;
+    font-size: 0.85em;
+  }
 }
-
 @media (max-width: 480px) {
+  /* Cart Icon: Fix vertical alignment on mobile devices */
+  /* line 84, ../sass/commerce.scss */
+  .dt-cart-block {
+    padding-top: 2px;
+  }
 
-    /* Cart Icon: Fix vertical alignment on mobile devices */
-    .dt-cart-block {
-        padding-top: 2px;
-    }
+  /* Search Bar: Shorten it so it doesn't cover the cart icon */
+  /* #header .search-block-form {
+      float:none;
+      width: 85%;
+  } */
+  /* Location Google Map: Shrink it so it fixs on an iPhone screen */
+  /* line 95, ../sass/commerce.scss */
+  iframe.dt-gmap {
+    width: 315px;
+    height: 250px;
+  }
 
-    /* Search Bar: Shorten it so it doesn't cover the cart icon */
-    /* #header .search-block-form {
-        float:none;
-        width: 85%;
-    } */
-
-    /* Location Google Map: Shrink it so it fixs on an iPhone screen */
-    iframe.dt-gmap{
-        width: 315px;
-        height: 250px;
-    }
+  /* Products Grid: Shrink into a two-column grid on mobile devices */
+  /* line 101, ../sass/commerce.scss */
+  .dt-grid-col {
+    width: 43%;
+  }
 }

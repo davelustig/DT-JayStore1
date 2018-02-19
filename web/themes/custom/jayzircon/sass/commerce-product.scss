@@ -1,0 +1,43 @@
+@import 'basic.scss';
+
+
+@include media(">tablet") {
+  .field.field--name-field-images {
+    text-align: center;
+    width: 60%;
+    float:left;
+    display: inline-block;
+  }
+
+  .field--name-field-ideal-for, .field--name-price, .field--name-field-image, .field--name-variations {
+    width: 40%;
+    display: inline-block;
+    .field__label {
+      font-size: $font-normal;
+    }
+
+    .field__items, .field__item {
+      font-size: $font-normal;
+    }
+  }
+}
+
+@include media(">phone", "<=tablet") {
+  .field.field--name-field-images {
+    text-align: center;
+    width: 100%;
+  }
+
+  .field--name-field-ideal-for, .field--name-price, .field--name-field-image, .field--name-variations {
+    text-align: center;
+    .field__label {
+      font-size: $font-normal;
+    }
+
+    .field__items, .field__item {
+      font-size: $font-normal;
+    }
+  }
+}
+
+

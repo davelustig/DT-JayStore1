@@ -1,0 +1,114 @@
+//basic colors
+
+@import 'include-media';
+
+$white: #ffffff;
+
+$black: #000000;
+
+// elemental colors
+$cadetblue: #5f9ea0;
+
+$gainsboro: #dcdcdc;
+
+// fancy color
+$aliceblue: #f0f8ff; // super light blue
+
+$azure: #f0ffff; // super light grey
+
+$beige: #f5f5dc; // light brown
+
+$cornsilk: #fff8dc; // pear white
+
+$lavender: #e6e6fa;
+
+$lightblue: #add8e6;
+
+$lightcoral: #f08080; //light red
+
+$lightgrey: #d3d3d3;
+
+$lightgreen: #90ee90;
+
+$lightyellow:	#ffffe0;
+
+.blue {
+  color: $cadetblue;
+}
+
+.grey {
+  color: $gainsboro;
+}
+
+.superLightBlue {
+  color: $aliceblue;
+}
+
+.superLightGrey {
+  color: $azure;
+}
+
+.lavender {
+  color: $lavender;
+}
+
+.lightBlue {
+  color: $lightblue;
+}
+
+.lightRed {
+  color: $lightcoral;
+}
+
+.lightGrey {
+  color: $lightgrey;
+}
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.lightGreen {
+  color: $lightgreen;
+}
+
+.lightYellow {
+  color: $lightyellow;
+}
+
+.pearWhite {
+  color: $cornsilk;
+}
+
+.lightBrown {
+  color: $beige;
+}
+
+.page {
+  background: #c1c9d0 !important;
+}
+
+.auto-center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+$font-super-small: 10px;
+$font-extra-small: 12px;
+$font-small: 14px;
+$font-normal: 16px;
+$font-large: 18px;
+$font-extra-large: 20px;
+$font-super-large: 24px;
+
+
+
+
+
