@@ -1,4 +1,9 @@
 /* Main Menu: Change its background color */
+
+html {
+  background: #c1c9d0;
+}
+
 #main-menu .container {
     background-color: #a57b55;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bb9568), to(#a57b55));
@@ -57,4 +62,9 @@
 /* Slideshow Slide Label: Change background color */
 #slideshow .container .views-field-title {
     background-color: rgba(114, 62, 42, 0.7);
+}
+
+/* Status Message: Get rid of margins */
+.region-slideshow .message--status {
+    margin-bottom: 0px;
 }

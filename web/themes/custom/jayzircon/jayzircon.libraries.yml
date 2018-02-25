@@ -8,3 +8,5 @@ global-styling:
       css/block.css: {}
       css/basic.css: {}
       css/commerce-product.css: {}
+      css/commerce-checkout.css: {}
+      css/contact-us.css: {}

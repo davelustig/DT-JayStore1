@@ -102,3 +102,18 @@ iframe.dt-gmap {
         width: 43%;
     }
 }
+
+.dt-cart-block .cart-block--contents__links {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #723e2a;
+  padding: 4px 7px;
+  width: 25%;
+  text-align: center;
+}
+
+.dt-cart-block .cart-block--contents__links:hover {
+  background-color: #a57b55;
+}
+

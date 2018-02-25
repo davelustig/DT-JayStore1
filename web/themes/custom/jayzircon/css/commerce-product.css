@@ -85,44 +85,51 @@
 
 @media (min-width: 769px) {
   /* line 5, ../sass/commerce-product.scss */
-  .field.field--name-field-images {
+  .DT-custom-product .field.field--name-field-images {
     text-align: center;
     width: 60%;
     float: left;
     display: inline-block;
   }
-
   /* line 12, ../sass/commerce-product.scss */
-  .field--name-field-ideal-for, .field--name-price, .field--name-field-image, .field--name-variations {
+  .DT-custom-product .field--name-field-ideal-for, .DT-custom-product .field--name-price, .DT-custom-product .field--name-field-image, .DT-custom-product .field--name-variations {
     width: 40%;
     display: inline-block;
   }
   /* line 15, ../sass/commerce-product.scss */
-  .field--name-field-ideal-for .field__label, .field--name-price .field__label, .field--name-field-image .field__label, .field--name-variations .field__label {
+  .DT-custom-product .field--name-field-ideal-for .field__label, .DT-custom-product .field--name-price .field__label, .DT-custom-product .field--name-field-image .field__label, .DT-custom-product .field--name-variations .field__label {
     font-size: 16px;
   }
   /* line 19, ../sass/commerce-product.scss */
-  .field--name-field-ideal-for .field__items, .field--name-field-ideal-for .field__item, .field--name-price .field__items, .field--name-price .field__item, .field--name-field-image .field__items, .field--name-field-image .field__item, .field--name-variations .field__items, .field--name-variations .field__item {
+  .DT-custom-product .field--name-field-ideal-for .field__items, .DT-custom-product .field--name-field-ideal-for .field__item, .DT-custom-product .field--name-price .field__items, .DT-custom-product .field--name-price .field__item, .DT-custom-product .field--name-field-image .field__items, .DT-custom-product .field--name-field-image .field__item, .DT-custom-product .field--name-variations .field__items, .DT-custom-product .field--name-variations .field__item {
     font-size: 16px;
   }
 }
 @media (min-width: 321px) and (max-width: 768px) {
   /* line 26, ../sass/commerce-product.scss */
-  .field.field--name-field-images {
+  .DT-custom-product .field.field--name-field-images {
     text-align: center;
     width: 100%;
   }
-
   /* line 31, ../sass/commerce-product.scss */
-  .field--name-field-ideal-for, .field--name-price, .field--name-field-image, .field--name-variations {
+  .DT-custom-product .field--name-field-ideal-for, .DT-custom-product .field--name-price, .DT-custom-product .field--name-field-image, .DT-custom-product .field--name-variations {
     text-align: center;
   }
   /* line 33, ../sass/commerce-product.scss */
-  .field--name-field-ideal-for .field__label, .field--name-price .field__label, .field--name-field-image .field__label, .field--name-variations .field__label {
+  .DT-custom-product .field--name-field-ideal-for .field__label, .DT-custom-product .field--name-price .field__label, .DT-custom-product .field--name-field-image .field__label, .DT-custom-product .field--name-variations .field__label {
     font-size: 16px;
   }
   /* line 37, ../sass/commerce-product.scss */
-  .field--name-field-ideal-for .field__items, .field--name-field-ideal-for .field__item, .field--name-price .field__items, .field--name-price .field__item, .field--name-field-image .field__items, .field--name-field-image .field__item, .field--name-variations .field__items, .field--name-variations .field__item {
+  .DT-custom-product .field--name-field-ideal-for .field__items, .DT-custom-product .field--name-field-ideal-for .field__item, .DT-custom-product .field--name-price .field__items, .DT-custom-product .field--name-price .field__item, .DT-custom-product .field--name-field-image .field__items, .DT-custom-product .field--name-field-image .field__item, .DT-custom-product .field--name-variations .field__items, .DT-custom-product .field--name-variations .field__item {
     font-size: 16px;
   }
+  /* line 42, ../sass/commerce-product.scss */
+  .DT-custom-product .field--name-price .field__label {
+    float: initial;
+  }
+}
+
+/* line 47, ../sass/commerce-product.scss */
+.DT-custom-product .field--type-text-with-summary {
+  padding: 0 9% 6%;
 }

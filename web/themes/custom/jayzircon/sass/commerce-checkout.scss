@@ -1,0 +1,36 @@
+.DT-custom-checkout {
+  fieldset label {
+    min-width: 130px;
+  }
+
+  fieldset input {
+    max-width: 95%;
+  }
+
+  fieldset .visually-hidden {
+    position: relative !important;
+    overflow: visible;
+    height: auto;
+    width: auto;
+  }
+
+  #edit-sidebar-coupon-redemption-form-code {
+    max-width: 100%;
+  }
+
+  .form-submit {
+      background-color: #723e2a;
+      margin: 0 10px 10px 0;
+      border: none;
+      padding: 8px 20px;
+      color: #fff;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      cursor: pointer;
+  }
+
+  .form-submit:hover {
+      background-color: black;
+      color: #fff;
+  }
+}

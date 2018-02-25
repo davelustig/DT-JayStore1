@@ -1,0 +1,35 @@
+/* line 2, ../sass/commerce-checkout.scss */
+.DT-custom-checkout fieldset label {
+  min-width: 130px;
+}
+/* line 6, ../sass/commerce-checkout.scss */
+.DT-custom-checkout fieldset input {
+  max-width: 95%;
+}
+/* line 10, ../sass/commerce-checkout.scss */
+.DT-custom-checkout fieldset .visually-hidden {
+  position: relative !important;
+  overflow: visible;
+  height: auto;
+  width: auto;
+}
+/* line 17, ../sass/commerce-checkout.scss */
+.DT-custom-checkout #edit-sidebar-coupon-redemption-form-code {
+  max-width: 100%;
+}
+/* line 21, ../sass/commerce-checkout.scss */
+.DT-custom-checkout .form-submit {
+  background-color: #723e2a;
+  margin: 0 10px 10px 0;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  cursor: pointer;
+}
+/* line 32, ../sass/commerce-checkout.scss */
+.DT-custom-checkout .form-submit:hover {
+  background-color: black;
+  color: #fff;
+}

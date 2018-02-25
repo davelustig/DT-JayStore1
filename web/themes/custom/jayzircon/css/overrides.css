@@ -1,5 +1,10 @@
 /* Main Menu: Change its background color */
-/* line 2, ../sass/overrides.scss */
+/* line 3, ../sass/overrides.scss */
+html {
+  background: #c1c9d0;
+}
+
+/* line 7, ../sass/overrides.scss */
 #main-menu .container {
   background-color: #a57b55;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bb9568), to(#a57b55));
@@ -9,7 +14,7 @@
   background: -o-linear-gradient(top, #bb9568, #a57b55);
 }
 
-/* line 11, ../sass/overrides.scss */
+/* line 16, ../sass/overrides.scss */
 #main-menu .container ul.menu li .is-active {
   background-color: #a01300;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#723e2a), to(#a57b55));
@@ -19,7 +24,7 @@
   background: -o-linear-gradient(top, #8a4d35, #723e2a);
 }
 
-/* line 20, ../sass/overrides.scss */
+/* line 25, ../sass/overrides.scss */
 #main-menu .container ul.menu li.menu-item--active-trail > a {
   background-color: #a01300;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#723e2a), to(#a57b55));
@@ -29,7 +34,7 @@
   background: -o-linear-gradient(top, #8a4d35, #723e2a);
 }
 
-/* line 29, ../sass/overrides.scss */
+/* line 34, ../sass/overrides.scss */
 #main-menu .container ul.menu li:hover > a, #main-menu .container ul.menu li:focus > a {
   background-color: #a01300;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#723e2a), to(#a57b55));
@@ -39,13 +44,13 @@
   background: -o-linear-gradient(top, #8a4d35, #723e2a);
 }
 
-/* line 38, ../sass/overrides.scss */
+/* line 43, ../sass/overrides.scss */
 #main-menu .container ul.menu li {
   border-left: 1px solid #723e2a;
 }
 
 /* Sidebar Block Header: Change color */
-/* line 43, ../sass/overrides.scss */
+/* line 48, ../sass/overrides.scss */
 .sidebar h2 {
   background-color: #a57b55;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bb9568), to(#a57b55));
@@ -56,13 +61,19 @@
 }
 
 /* Form Submit Button: Change color */
-/* line 53, ../sass/overrides.scss */
+/* line 58, ../sass/overrides.scss */
 .form-actions .form-submit {
   background-color: #723e2a;
 }
 
 /* Slideshow Slide Label: Change background color */
-/* line 58, ../sass/overrides.scss */
+/* line 63, ../sass/overrides.scss */
 #slideshow .container .views-field-title {
   background-color: rgba(114, 62, 42, 0.7);
+}
+
+/* Status Message: Get rid of margins */
+/* line 68, ../sass/overrides.scss */
+.region-slideshow .message--status {
+  margin-bottom: 0px;
 }
