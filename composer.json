@@ -36,19 +36,26 @@
         "drupal/bootstrap": "^3.9",
         "drupal/business": "^1.7",
         "drupal/commerce": "~2.0",
+        "drupal/commerce_bulk": "^1.0@alpha",
+        "drupal/commerce_shipping": "2.x-dev",
+        "drupal/commerce_square": "^1.2",
+        "drupal/commerce_xattributes": "^1.0@beta",
         "drupal/console": "~1.0",
         "drupal/content_sync": "^2.0",
         "drupal/core": "~8.4",
         "drupal/devel": "^1.2",
         "drupal/easy_breadcrumb": "^1.6",
         "drupal/facets": "^1.0@beta",
+        "drupal/mailjet": "^1.0",
         "drupal/search_api": "~1.0",
         "drupal/swiftmailer": "~1.0",
         "drupal/token": "~1.0",
         "drupal/views_slideshow": "^4.6",
         "drupal/zircon": "^0.2.0",
         "drupalcommerce/commerce_base": "dev-8.x-1.x",
+        "league/oauth2-google": "^2.0",
         "oomphinc/composer-installers-extender": "^1.1",
+        "phpmailer/phpmailer": "~5.2",
         "webflo/drupal-finder": "^1.0",
         "webmozart/path-util": "^2.3"
     },
@@ -112,6 +119,11 @@
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
             ]
-        }
+        },
+        "patches": {
+	    "drupal/commerce_shipping": {
+		"No shipping rates": "https://www.drupal.org/files/issues/no-shipping-rates-2861008-6.patch"
+	    }
+	}
     }
 }
