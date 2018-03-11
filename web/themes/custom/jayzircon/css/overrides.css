@@ -66,14 +66,40 @@ html {
   background-color: #723e2a;
 }
 
-/* Slideshow Slide Label: Change background color */
+/* Custom Buttons: Change color */
 /* line 63, ../sass/overrides.scss */
+a.dt-button {
+  background-color: #723e2a;
+  margin: 0 10px 10px 0;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  cursor: pointer;
+}
+
+/* line 74, ../sass/overrides.scss */
+a.dt-button:hover {
+  background-color: #a57b55;
+  color: #fff;
+}
+
+/* Slideshow Slide Label: Change background color */
+/* line 80, ../sass/overrides.scss */
 #slideshow .container .views-field-title {
   background-color: rgba(114, 62, 42, 0.7);
 }
 
+/* Slideshow Slide Label: Prevent label from hiding when the slide is narrow */
+@media (max-width: 767px) {
+  /* line 86, ../sass/overrides.scss */
+  #slideshow .container .views-field-title {
+    display: inherit;
+  }
+}
 /* Status Message: Get rid of margins */
-/* line 68, ../sass/overrides.scss */
-.region-slideshow .message--status {
+/* line 92, ../sass/overrides.scss */
+.region-slideshow .messages--status {
   margin-bottom: 0px;
 }

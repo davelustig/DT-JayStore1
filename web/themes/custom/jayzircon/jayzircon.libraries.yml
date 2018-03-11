@@ -10,3 +10,6 @@ global-styling:
       css/commerce-product.css: {}
       css/commerce-checkout.css: {}
       css/contact-us.css: {}
+      css/tab-intro.css: {}
+  js:
+    js/cycles-slideshow-fix.js: {}

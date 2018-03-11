@@ -1,0 +1,28 @@
+@import 'basic.scss';
+
+.dt-tabintro {
+    @include media(">desktop-lg") {
+        font-size: large;
+    }
+
+    @include media(">=desktop-sm", "<=desktop-lg") {
+        font-size: medium;
+    }
+
+    @include media(">phone-lg", "<desktop-sm") {
+        font-size: large;
+    }
+
+    @include media("<=phone-lg") {
+        font-size: medium;
+    }    
+
+    .dt-tab-leftblock {
+        padding: 30px;
+    }
+
+    .dt-tab-btnblock {
+        text-align: center;
+    }
+}
+

@@ -62,6 +62,13 @@ iframe.dt-gmap {
     /* Nothing yet */
 }
 
+/* Keep slideshow image from scaling vertically, instead centering and croping it with a fixed height */
+.dt-sshow-row img {
+    object-fit: cover;
+    height: 320px;
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     /* Location Google Map: Shrink it to it doesn't spill over into the right column on smaller windows */
     iframe.dt-gmap{

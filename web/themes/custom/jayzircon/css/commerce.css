@@ -72,9 +72,17 @@ iframe.dt-gmap {
   /* Nothing yet */
 }
 
+/* Keep slideshow image from scaling vertically, instead centering and croping it with a fixed height */
+/* line 66, ../sass/commerce.scss */
+.dt-sshow-row img {
+  object-fit: cover;
+  height: 320px;
+  width: 100%;
+}
+
 @media (max-width: 1200px) {
   /* Location Google Map: Shrink it to it doesn't spill over into the right column on smaller windows */
-  /* line 67, ../sass/commerce.scss */
+  /* line 74, ../sass/commerce.scss */
   iframe.dt-gmap {
     width: 450px;
     height: 350px;
@@ -82,7 +90,7 @@ iframe.dt-gmap {
 }
 @media (max-width: 991px) {
   /* Site Name: Move it under the logo on smaller screens */
-  /* line 75, ../sass/commerce.scss */
+  /* line 82, ../sass/commerce.scss */
   .dt-site-name {
     display: block;
     font-size: 0.85em;
@@ -90,7 +98,7 @@ iframe.dt-gmap {
 }
 @media (max-width: 480px) {
   /* Cart Icon: Fix vertical alignment on mobile devices */
-  /* line 84, ../sass/commerce.scss */
+  /* line 91, ../sass/commerce.scss */
   .dt-cart-block {
     padding-top: 2px;
   }
@@ -101,19 +109,19 @@ iframe.dt-gmap {
       width: 85%;
   } */
   /* Location Google Map: Shrink it so it fixs on an iPhone screen */
-  /* line 95, ../sass/commerce.scss */
+  /* line 102, ../sass/commerce.scss */
   iframe.dt-gmap {
     width: 315px;
     height: 250px;
   }
 
   /* Products Grid: Shrink into a two-column grid on mobile devices */
-  /* line 101, ../sass/commerce.scss */
+  /* line 108, ../sass/commerce.scss */
   .dt-grid-col {
     width: 43%;
   }
 }
-/* line 106, ../sass/commerce.scss */
+/* line 113, ../sass/commerce.scss */
 .dt-cart-block .cart-block--contents__links {
   color: #fff;
   font-size: 14px;
@@ -124,7 +132,7 @@ iframe.dt-gmap {
   text-align: center;
 }
 
-/* line 116, ../sass/commerce.scss */
+/* line 123, ../sass/commerce.scss */
 .dt-cart-block .cart-block--contents__links:hover {
   background-color: #a57b55;
 }

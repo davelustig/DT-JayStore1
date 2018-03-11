@@ -1,0 +1,119 @@
+/* line 35, ../sass/basic.scss */
+.blue {
+  color: #5f9ea0;
+}
+
+/* line 39, ../sass/basic.scss */
+.grey {
+  color: #dcdcdc;
+}
+
+/* line 43, ../sass/basic.scss */
+.superLightBlue {
+  color: #f0f8ff;
+}
+
+/* line 47, ../sass/basic.scss */
+.superLightGrey {
+  color: #f0ffff;
+}
+
+/* line 51, ../sass/basic.scss */
+.lavender {
+  color: #e6e6fa;
+}
+
+/* line 55, ../sass/basic.scss */
+.lightBlue {
+  color: #add8e6;
+}
+
+/* line 59, ../sass/basic.scss */
+.lightRed {
+  color: #f08080;
+}
+
+/* line 63, ../sass/basic.scss */
+.lightGrey {
+  color: #d3d3d3;
+}
+
+/* line 67, ../sass/basic.scss */
+.white {
+  color: #ffffff;
+}
+
+/* line 71, ../sass/basic.scss */
+.black {
+  color: #000000;
+}
+
+/* line 75, ../sass/basic.scss */
+.lightGreen {
+  color: #90ee90;
+}
+
+/* line 79, ../sass/basic.scss */
+.lightYellow {
+  color: #ffffe0;
+}
+
+/* line 83, ../sass/basic.scss */
+.pearWhite {
+  color: #fff8dc;
+}
+
+/* line 87, ../sass/basic.scss */
+.lightBrown {
+  color: #f5f5dc;
+}
+
+/* line 91, ../sass/basic.scss */
+.page {
+  background: #c1c9d0 !important;
+}
+
+/* line 95, ../sass/basic.scss */
+.auto-center {
+  margin: 0 auto;
+}
+
+/* line 99, ../sass/basic.scss */
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 1201px) {
+  /* line 3, ../sass/tab-intro.scss */
+  .dt-tabintro {
+    font-size: large;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 3, ../sass/tab-intro.scss */
+  .dt-tabintro {
+    font-size: medium;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 991px) {
+  /* line 3, ../sass/tab-intro.scss */
+  .dt-tabintro {
+    font-size: large;
+  }
+}
+
+@media (max-width: 425px) {
+  /* line 3, ../sass/tab-intro.scss */
+  .dt-tabintro {
+    font-size: medium;
+  }
+}
+/* line 20, ../sass/tab-intro.scss */
+.dt-tabintro .dt-tab-leftblock {
+  padding: 30px;
+}
+/* line 24, ../sass/tab-intro.scss */
+.dt-tabintro .dt-tab-btnblock {
+  text-align: center;
+}
