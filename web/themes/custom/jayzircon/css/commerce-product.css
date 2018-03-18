@@ -83,53 +83,138 @@
   text-align: center;
 }
 
+@media (min-width: 321px) and (max-width: 768px) {
+  /* line 3, ../sass/commerce-product.scss */
+  .DT-product-item {
+    padding: 3% 5%;
+  }
+  /* line 7, ../sass/commerce-product.scss */
+  .DT-product-item .commerce-order-item-variation-cart-form-form {
+    border-bottom: 1px solid #dddddd;
+  }
+  /* line 11, ../sass/commerce-product.scss */
+  .DT-product-item .field--name-quantity .form-number {
+    max-width: 80px;
+  }
+}
+
 @media (min-width: 769px) {
-  /* line 5, ../sass/commerce-product.scss */
-  .DT-custom-product .field.field--name-field-images {
-    text-align: center;
-    width: 60%;
-    float: left;
-    display: inline-block;
-  }
-  /* line 12, ../sass/commerce-product.scss */
-  .DT-custom-product .field--name-field-ideal-for, .DT-custom-product .field--name-price, .DT-custom-product .field--name-field-image, .DT-custom-product .field--name-variations {
-    width: 40%;
-    display: inline-block;
-  }
-  /* line 15, ../sass/commerce-product.scss */
-  .DT-custom-product .field--name-field-ideal-for .field__label, .DT-custom-product .field--name-price .field__label, .DT-custom-product .field--name-field-image .field__label, .DT-custom-product .field--name-variations .field__label {
-    font-size: 16px;
+  /* line 3, ../sass/commerce-product.scss */
+  .DT-product-item {
+    padding: 0 7.5%;
   }
   /* line 19, ../sass/commerce-product.scss */
-  .DT-custom-product .field--name-field-ideal-for .field__items, .DT-custom-product .field--name-field-ideal-for .field__item, .DT-custom-product .field--name-price .field__items, .DT-custom-product .field--name-price .field__item, .DT-custom-product .field--name-field-image .field__items, .DT-custom-product .field--name-field-image .field__item, .DT-custom-product .field--name-variations .field__items, .DT-custom-product .field--name-variations .field__item {
+  .DT-product-item .field__label {
     font-size: 16px;
+    display: none;
+  }
+  /* line 24, ../sass/commerce-product.scss */
+  .DT-product-item .field__items, .DT-product-item .field__item {
+    font-size: 16px;
+  }
+  /* line 28, ../sass/commerce-product.scss */
+  .DT-product-item .field {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 33, ../sass/commerce-product.scss */
+  .DT-product-item .field--name-price {
+    width: 16%;
+  }
+  /* line 35, ../sass/commerce-product.scss */
+  .DT-product-item .field--name-price .field__label {
+    display: none;
+  }
+  /* line 40, ../sass/commerce-product.scss */
+  .DT-product-item .field--name-field-image {
+    width: 16%;
+  }
+  /* line 44, ../sass/commerce-product.scss */
+  .DT-product-item .field--name-attribute-cabinet-style {
+    width: 16%;
+  }
+  /* line 48, ../sass/commerce-product.scss */
+  .DT-product-item .field--name-attribute-cabinet-dimensions {
+    width: 16%;
+  }
+  /* line 52, ../sass/commerce-product.scss */
+  .DT-product-item .commerce-order-item-variation-cart-form-form {
+    display: inline-block;
+    width: 30%;
+  }
+  /* line 56, ../sass/commerce-product.scss */
+  .DT-product-item .commerce-order-item-variation-cart-form-form .field--name-quantity {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+  }
+  /* line 61, ../sass/commerce-product.scss */
+  .DT-product-item .commerce-order-item-variation-cart-form-form .field--name-quantity .form-number {
+    width: 100%;
+  }
+  /* line 66, ../sass/commerce-product.scss */
+  .DT-product-item .commerce-order-item-variation-cart-form-form .form-actions {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+/* line 79, ../sass/commerce-product.scss */
+.DT-page-title .page-title .field--name-title {
+  text-align: center;
+}
+
+/* line 85, ../sass/commerce-product.scss */
+.DT-custom-product {
+  padding-bottom: 7.5%;
+}
+/* line 88, ../sass/commerce-product.scss */
+.DT-custom-product .field--name-title {
+  text-align: center;
+}
+/* line 92, ../sass/commerce-product.scss */
+.DT-custom-product div[class^='product--variation-field--variation'] {
+  display: none;
+}
+@media (min-width: 769px) {
+  /* line 97, ../sass/commerce-product.scss */
+  .DT-custom-product .field.field--name-field-images {
+    text-align: center;
+  }
+  /* line 101, ../sass/commerce-product.scss */
+  .DT-custom-product .field--type-text-with-summary {
+    margin: 30px 0;
+    text-align: left;
+    padding: 0 7.5%;
   }
 }
 @media (min-width: 321px) and (max-width: 768px) {
-  /* line 26, ../sass/commerce-product.scss */
+  /* line 109, ../sass/commerce-product.scss */
   .DT-custom-product .field.field--name-field-images {
     text-align: center;
     width: 100%;
   }
-  /* line 31, ../sass/commerce-product.scss */
+  /* line 114, ../sass/commerce-product.scss */
+  .DT-custom-product .field--type-text-with-summary {
+    margin: 20px 0;
+    text-align: left;
+    padding: 0 7.5%;
+  }
+  /* line 120, ../sass/commerce-product.scss */
   .DT-custom-product .field--name-field-ideal-for, .DT-custom-product .field--name-price, .DT-custom-product .field--name-field-image, .DT-custom-product .field--name-variations {
     text-align: center;
   }
-  /* line 33, ../sass/commerce-product.scss */
+  /* line 122, ../sass/commerce-product.scss */
   .DT-custom-product .field--name-field-ideal-for .field__label, .DT-custom-product .field--name-price .field__label, .DT-custom-product .field--name-field-image .field__label, .DT-custom-product .field--name-variations .field__label {
     font-size: 16px;
   }
-  /* line 37, ../sass/commerce-product.scss */
+  /* line 126, ../sass/commerce-product.scss */
   .DT-custom-product .field--name-field-ideal-for .field__items, .DT-custom-product .field--name-field-ideal-for .field__item, .DT-custom-product .field--name-price .field__items, .DT-custom-product .field--name-price .field__item, .DT-custom-product .field--name-field-image .field__items, .DT-custom-product .field--name-field-image .field__item, .DT-custom-product .field--name-variations .field__items, .DT-custom-product .field--name-variations .field__item {
     font-size: 16px;
   }
-  /* line 42, ../sass/commerce-product.scss */
+  /* line 131, ../sass/commerce-product.scss */
   .DT-custom-product .field--name-price .field__label {
     float: initial;
   }
-}
-
-/* line 47, ../sass/commerce-product.scss */
-.DT-custom-product .field--type-text-with-summary {
-  padding: 0 9% 6%;
 }

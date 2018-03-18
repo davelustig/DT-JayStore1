@@ -1,24 +1,107 @@
 @import 'basic.scss';
 
+.DT-product-item {
+  @include media(">phone","<=tablet") {
+    padding: 3% 5%;
+
+    .commerce-order-item-variation-cart-form-form {
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .field--name-quantity .form-number {
+      max-width: 80px;
+    }
+  }
+
+  @include media(">tablet") {
+    padding: 0 7.5%;
+
+    .field__label {
+      font-size: $font-normal;
+      display: none;
+    }
+
+    .field__items, .field__item {
+      font-size: $font-normal;
+    }
+
+    .field {
+      display: inline-block;
+      text-align: center;
+    }
+
+    .field--name-price {
+      width: 16%;
+      .field__label {
+        display: none;
+      }
+    }
+
+    .field--name-field-image {
+      width: 16%;
+    }
+
+    .field--name-attribute-cabinet-style {
+      width: 16%;
+    }
+
+    .field--name-attribute-cabinet-dimensions {
+      width: 16%;
+    }
+
+    .commerce-order-item-variation-cart-form-form {
+      display: inline-block;
+      width: 30%;
+
+      .field--name-quantity {
+        display: inline-block;
+        width: 40%;
+        text-align: center;
+
+        .form-number {
+          width: 100%;
+        }
+      }
+
+      .form-actions {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+      }
+    }
+
+  }
+
+}
+
+.DT-page-title {
+  .page-title {
+    .field--name-title {
+      text-align: center;
+    }
+  }
+}
+
 .DT-custom-product {
+  padding-bottom: 7.5%;
+
+  .field--name-title {
+    text-align: center;
+  }
+
+  div[class^='product--variation-field--variation'] {
+    display: none;
+  }
+
   @include media(">tablet") {
     .field.field--name-field-images {
       text-align: center;
-      width: 60%;
-      float: left;
-      display: inline-block;
     }
 
-    .field--name-field-ideal-for, .field--name-price, .field--name-field-image, .field--name-variations {
-      width: 40%;
-      display: inline-block;
-      .field__label {
-        font-size: $font-normal;
-      }
-
-      .field__items, .field__item {
-        font-size: $font-normal;
-      }
+    .field--type-text-with-summary {
+      margin: 30px 0;
+      text-align:left;
+      padding: 0 7.5%;
     }
   }
 
@@ -26,6 +109,12 @@
     .field.field--name-field-images {
       text-align: center;
       width: 100%;
+    }
+
+    .field--type-text-with-summary {
+      margin: 20px 0;
+      text-align:left;
+      padding: 0 7.5%;
     }
 
     .field--name-field-ideal-for, .field--name-price, .field--name-field-image, .field--name-variations {
@@ -42,10 +131,6 @@
     .field--name-price .field__label {
       float: initial;
     }
-  }
-
-  .field--type-text-with-summary {
-    padding: 0 9% 6%;
   }
 }
 

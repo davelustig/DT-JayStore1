@@ -1,3 +1,4 @@
+@import 'basic.scss';
 /* Cart Icon: Push it to the right side of the header */
 .dt-cart-block {
     float: right;
@@ -44,6 +45,28 @@ iframe.dt-gmap {
     padding: 10px;
     background-color: #fbfbfb;
     width: 30%;
+}
+
+@include media(">tablet") {
+
+  .dt-grid-col {
+    border: none;
+    .views-field-body {
+      padding: 0 5%;
+      text-align: center;
+    }
+  }
+}
+
+@include media(">=phone", "<=tablet") {
+  .dt-grid-col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .views-field-body {
+    padding: 0 5%;
+  }
 }
 
 .dt-grid-col .views-field-title {
@@ -102,11 +125,6 @@ iframe.dt-gmap {
     iframe.dt-gmap{
         width: 315px;
         height: 250px;
-    }
-
-    /* Products Grid: Shrink into a two-column grid on mobile devices */
-    .dt-grid-col {
-        width: 43%;
     }
 }
 

@@ -1,3 +1,5 @@
+@import 'basic.scss';
+
 .DT-custom-checkout {
   fieldset label {
     min-width: 130px;
@@ -32,5 +34,11 @@
   .form-submit:hover {
       background-color: black;
       color: #fff;
+  }
+}
+
+.DT-checkout-process {
+  @include media("<tablet") {
+    display: none;
   }
 }

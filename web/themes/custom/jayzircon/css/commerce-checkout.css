@@ -1,23 +1,108 @@
-/* line 2, ../sass/commerce-checkout.scss */
+/* line 35, ../sass/basic.scss */
+.blue {
+  color: #5f9ea0;
+}
+
+/* line 39, ../sass/basic.scss */
+.grey {
+  color: #dcdcdc;
+}
+
+/* line 43, ../sass/basic.scss */
+.superLightBlue {
+  color: #f0f8ff;
+}
+
+/* line 47, ../sass/basic.scss */
+.superLightGrey {
+  color: #f0ffff;
+}
+
+/* line 51, ../sass/basic.scss */
+.lavender {
+  color: #e6e6fa;
+}
+
+/* line 55, ../sass/basic.scss */
+.lightBlue {
+  color: #add8e6;
+}
+
+/* line 59, ../sass/basic.scss */
+.lightRed {
+  color: #f08080;
+}
+
+/* line 63, ../sass/basic.scss */
+.lightGrey {
+  color: #d3d3d3;
+}
+
+/* line 67, ../sass/basic.scss */
+.white {
+  color: #ffffff;
+}
+
+/* line 71, ../sass/basic.scss */
+.black {
+  color: #000000;
+}
+
+/* line 75, ../sass/basic.scss */
+.lightGreen {
+  color: #90ee90;
+}
+
+/* line 79, ../sass/basic.scss */
+.lightYellow {
+  color: #ffffe0;
+}
+
+/* line 83, ../sass/basic.scss */
+.pearWhite {
+  color: #fff8dc;
+}
+
+/* line 87, ../sass/basic.scss */
+.lightBrown {
+  color: #f5f5dc;
+}
+
+/* line 91, ../sass/basic.scss */
+.page {
+  background: #c1c9d0 !important;
+}
+
+/* line 95, ../sass/basic.scss */
+.auto-center {
+  margin: 0 auto;
+}
+
+/* line 99, ../sass/basic.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 4, ../sass/commerce-checkout.scss */
 .DT-custom-checkout fieldset label {
   min-width: 130px;
 }
-/* line 6, ../sass/commerce-checkout.scss */
+/* line 8, ../sass/commerce-checkout.scss */
 .DT-custom-checkout fieldset input {
   max-width: 95%;
 }
-/* line 10, ../sass/commerce-checkout.scss */
+/* line 12, ../sass/commerce-checkout.scss */
 .DT-custom-checkout fieldset .visually-hidden {
   position: relative !important;
   overflow: visible;
   height: auto;
   width: auto;
 }
-/* line 17, ../sass/commerce-checkout.scss */
+/* line 19, ../sass/commerce-checkout.scss */
 .DT-custom-checkout #edit-sidebar-coupon-redemption-form-code {
   max-width: 100%;
 }
-/* line 21, ../sass/commerce-checkout.scss */
+/* line 23, ../sass/commerce-checkout.scss */
 .DT-custom-checkout .form-submit {
   background-color: #723e2a;
   margin: 0 10px 10px 0;
@@ -28,8 +113,15 @@
   -webkit-border-radius: 3px;
   cursor: pointer;
 }
-/* line 32, ../sass/commerce-checkout.scss */
+/* line 34, ../sass/commerce-checkout.scss */
 .DT-custom-checkout .form-submit:hover {
   background-color: black;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  /* line 40, ../sass/commerce-checkout.scss */
+  .DT-checkout-process {
+    display: none;
+  }
 }

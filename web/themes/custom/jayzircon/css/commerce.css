@@ -1,5 +1,90 @@
+/* line 35, ../sass/basic.scss */
+.blue {
+  color: #5f9ea0;
+}
+
+/* line 39, ../sass/basic.scss */
+.grey {
+  color: #dcdcdc;
+}
+
+/* line 43, ../sass/basic.scss */
+.superLightBlue {
+  color: #f0f8ff;
+}
+
+/* line 47, ../sass/basic.scss */
+.superLightGrey {
+  color: #f0ffff;
+}
+
+/* line 51, ../sass/basic.scss */
+.lavender {
+  color: #e6e6fa;
+}
+
+/* line 55, ../sass/basic.scss */
+.lightBlue {
+  color: #add8e6;
+}
+
+/* line 59, ../sass/basic.scss */
+.lightRed {
+  color: #f08080;
+}
+
+/* line 63, ../sass/basic.scss */
+.lightGrey {
+  color: #d3d3d3;
+}
+
+/* line 67, ../sass/basic.scss */
+.white {
+  color: #ffffff;
+}
+
+/* line 71, ../sass/basic.scss */
+.black {
+  color: #000000;
+}
+
+/* line 75, ../sass/basic.scss */
+.lightGreen {
+  color: #90ee90;
+}
+
+/* line 79, ../sass/basic.scss */
+.lightYellow {
+  color: #ffffe0;
+}
+
+/* line 83, ../sass/basic.scss */
+.pearWhite {
+  color: #fff8dc;
+}
+
+/* line 87, ../sass/basic.scss */
+.lightBrown {
+  color: #f5f5dc;
+}
+
+/* line 91, ../sass/basic.scss */
+.page {
+  background: #c1c9d0 !important;
+}
+
+/* line 95, ../sass/basic.scss */
+.auto-center {
+  margin: 0 auto;
+}
+
+/* line 99, ../sass/basic.scss */
+.text-center {
+  text-align: center;
+}
+
 /* Cart Icon: Push it to the right side of the header */
-/* line 2, ../sass/commerce.scss */
+/* line 3, ../sass/commerce.scss */
 .dt-cart-block {
   float: right;
   padding-top: 4px;
@@ -7,7 +92,7 @@
 }
 
 /* Site Name: Push it the right of the logo, and make it large */
-/* line 9, ../sass/commerce.scss */
+/* line 10, ../sass/commerce.scss */
 .dt-site-name {
   display: inline;
   font-family: Arial Black, Arial Bold, Gadget, sans-serif;
@@ -17,13 +102,13 @@
 }
 
 /* Account Menu: Move it to the right side of the header bar and lay it out horizontally */
-/* line 18, ../sass/commerce.scss */
+/* line 19, ../sass/commerce.scss */
 ul.dt-account-menu {
   float: right;
   padding-top: 10px;
 }
 
-/* line 23, ../sass/commerce.scss */
+/* line 24, ../sass/commerce.scss */
 ul.dt-account-menu li {
   display: inline;
   padding-left: 8px;
@@ -31,20 +116,20 @@ ul.dt-account-menu li {
 }
 
 /* Location Google Map: Set size */
-/* line 30, ../sass/commerce.scss */
+/* line 31, ../sass/commerce.scss */
 iframe.dt-gmap {
   width: 550px;
   height: 350px;
 }
 
 /* Custom Ads: Change cursor into pointer when hovering over */
-/* line 36, ../sass/commerce.scss */
+/* line 37, ../sass/commerce.scss */
 .dt-ad {
   cursor: pointer;
 }
 
 /* Products Grid: Style each item */
-/* line 41, ../sass/commerce.scss */
+/* line 42, ../sass/commerce.scss */
 .dt-grid-col {
   border: lightgrey solid 1px;
   margin: 10px;
@@ -53,27 +138,50 @@ iframe.dt-gmap {
   width: 30%;
 }
 
-/* line 49, ../sass/commerce.scss */
+@media (min-width: 769px) {
+  /* line 52, ../sass/commerce.scss */
+  .dt-grid-col {
+    border: none;
+  }
+  /* line 54, ../sass/commerce.scss */
+  .dt-grid-col .views-field-body {
+    padding: 0 5%;
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  /* line 62, ../sass/commerce.scss */
+  .dt-grid-col {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 67, ../sass/commerce.scss */
+  .views-field-body {
+    padding: 0 5%;
+  }
+}
+/* line 72, ../sass/commerce.scss */
 .dt-grid-col .views-field-title {
   text-align: center;
   font-size: large;
   font-weight: bold;
 }
 
-/* line 55, ../sass/commerce.scss */
+/* line 78, ../sass/commerce.scss */
 .dt-grid-col .views-field-field-images {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 61, ../sass/commerce.scss */
+/* line 84, ../sass/commerce.scss */
 .dt-grid-col .views-field-body {
   /* Nothing yet */
 }
 
 /* Keep slideshow image from scaling vertically, instead centering and croping it with a fixed height */
-/* line 66, ../sass/commerce.scss */
+/* line 89, ../sass/commerce.scss */
 .dt-sshow-row img {
   object-fit: cover;
   height: 320px;
@@ -82,7 +190,7 @@ iframe.dt-gmap {
 
 @media (max-width: 1200px) {
   /* Location Google Map: Shrink it to it doesn't spill over into the right column on smaller windows */
-  /* line 74, ../sass/commerce.scss */
+  /* line 97, ../sass/commerce.scss */
   iframe.dt-gmap {
     width: 450px;
     height: 350px;
@@ -90,7 +198,7 @@ iframe.dt-gmap {
 }
 @media (max-width: 991px) {
   /* Site Name: Move it under the logo on smaller screens */
-  /* line 82, ../sass/commerce.scss */
+  /* line 105, ../sass/commerce.scss */
   .dt-site-name {
     display: block;
     font-size: 0.85em;
@@ -98,7 +206,7 @@ iframe.dt-gmap {
 }
 @media (max-width: 480px) {
   /* Cart Icon: Fix vertical alignment on mobile devices */
-  /* line 91, ../sass/commerce.scss */
+  /* line 114, ../sass/commerce.scss */
   .dt-cart-block {
     padding-top: 2px;
   }
@@ -109,19 +217,13 @@ iframe.dt-gmap {
       width: 85%;
   } */
   /* Location Google Map: Shrink it so it fixs on an iPhone screen */
-  /* line 102, ../sass/commerce.scss */
+  /* line 125, ../sass/commerce.scss */
   iframe.dt-gmap {
     width: 315px;
     height: 250px;
   }
-
-  /* Products Grid: Shrink into a two-column grid on mobile devices */
-  /* line 108, ../sass/commerce.scss */
-  .dt-grid-col {
-    width: 43%;
-  }
 }
-/* line 113, ../sass/commerce.scss */
+/* line 131, ../sass/commerce.scss */
 .dt-cart-block .cart-block--contents__links {
   color: #fff;
   font-size: 14px;
@@ -132,7 +234,7 @@ iframe.dt-gmap {
   text-align: center;
 }
 
-/* line 123, ../sass/commerce.scss */
+/* line 141, ../sass/commerce.scss */
 .dt-cart-block .cart-block--contents__links:hover {
   background-color: #a57b55;
 }
